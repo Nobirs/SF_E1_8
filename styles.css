@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(img.png);
+    background-repeat: round;
+    min-height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: static;
+    overflow: hidden;
+}
+b {
+    color: lightgrey;
+    margin: 5px 10px 15px;
+}
+.navbar {
+    background-color: black;
+    font-size: 200%;
+    padding: 10px 5px 10px 5px;
+    height: 50px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.link_head {
+    margin-top: 5px;
+}
+
+.img_left {
+    width: 600px;
+    height: 500px;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.img_rabbit {
+    width: 500px;
+    height: 600px;
+    display: table;
+    float: left;
+    padding: 0px 20px 10px 0px;
+}
+
+.content_container  {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    height: 45px;
+    padding: 5px 0px 5px 0px;
+}
+
+span {
+    margin-left: 49%;
+    float: right;
+}
+.link_head a:hover{
+    background-color: #ae86e7;
+    color: black;
+}
+
+
+.navigation {
+    height: 100%;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+#p_content {
+    font-size: 30px;
+    color: azure;
+    background-size: auto;
+
+}
